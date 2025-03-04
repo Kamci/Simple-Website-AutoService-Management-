@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(125, 163, 206);
+    text-decoration-color: black;
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2px;
+}
+
+h1
+{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+th, td {
+    border: 2px solid #4872b6;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #9ecfec;
+}
+tr:nth-child(even) {    
+    /*parzyste */
+    background-color: #adc9f5;
+}
+tr:nth-child(odd) {
+    background-color: #d1eeff;
+}
+
+.btn-AddFakture
+{
+    background-color: #007bff; /* Niebieski kolor */
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.btn-main
+{
+    background-color: #007bff; /* Niebieski kolor */
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+}
+img
+{
+    width: 100px; height: 100px; margin: 10px;
+}
+
+h3{
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 50px;
+    border-radius: 7px;
+    text-align: center;
+}
+.btn{
+    background-color: #007bff; /* Niebieski kolor */
+    color: white;
+    border: 2px solid black;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+ 
+
+input, select {
+    width: 100%; /* Dopasowanie szerokości */
+    padding: 5px; /* Wewnętrzne odstępy */
+    font-size: 16px; /* Rozmiar czcionki */
+    height: 30px; /* Ustawienie wysokości */
+    box-sizing: border-box; /* Wliczanie paddingu do szerokości/wysokości */
+}
+
+a 
+{
+    text-decoration: none;
+    background-color: #007bff; /* Niebieski kolor */
+    color: white;
+    border: 2px solid black;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+i
+{
+    font-size: 20px;
+}
+
+.input_filtr{
+   width: 15%;
+   height: 30px;
+}   
+
+textarea {
+    width: 100%; height: 100%; box-sizing: border-box;
+}
+input.error {
+    border: 2px solid red; /* Czerwony obrys */
+    background-color: #ffe6e6; /* Jasnoczerwone tło */
+}
+span.error-message {
+    color: red;
+    font-size: 12px;
+}

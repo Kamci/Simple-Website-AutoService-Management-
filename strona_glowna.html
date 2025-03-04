@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> AutoSerwis</title>
+  <link rel="stylesheet" href="css/style_main.css">
+</head>
+<body >
+  <h3 >
+    Auto Serwis
+  </h3>
+<hr style="border: 1px solid black;"><center>
+
+<!-- sposób 1: menu z przycisków zmieniających location -->
+<button class="btn-main" onClick="window.location='klienci.php'" > 
+  <img src="Ikony/Klienci.png" ><br><br> Klienci </button>
+<button class="btn-main" onClick="window.location='pojazdy.php'">
+  <img src="Ikony/Pojazdy.png" ><br><br> Pojazdy </button>
+<button class="btn-main" onClick="window.location='wizyty.php'">
+  <img src="Ikony/Wizyty.png" ><br><br> Wizyty </button>
+<button class="btn-main" onClick="window.location='uslugi.php'">
+  <img src="Ikony/Uslugi.png" ><br><br> Usługi </button>
+<button class="btn-main" onClick="window.location='faktury.php'">
+  <img src="Ikony/Faktury.png" ><br><br> Faktury </button>
+<button class="btn-main" onClick="window.location='dziennik_log.php'" >
+  <img src="Ikony/Dziennik_logowan.png" ><br><br> Dziennik Logowań </button>
+<button class="btn-main" onClick="window.location='log.php'" >
+  <img src="Ikony/Wyloguj.png" ><br><br> Wyloguj 
+</button>
+<button class="btn-main" onClick="window.location='Autor.php'" >
+  <img src="Ikony/Autor.png" ><br><br> Autor
+</button>
+
+
+
+
+<!-- sposób 2: menu z formularza zawierającego przyciski-submity zmieniające action przed wysłaniem 
+<form name=menu>
+<input type=submit value=" Kandydaci " onClick="window.document.forms[0].action='kandydaci.php'"> 
+<input type=submit value=" Najlepsi " onClick="document.menu.action='najlepsi.php'">
+<input type=submit value=" Dodaj " onClick="action='dodaj.html'">
+</form>
+-->
+
+<!-- sposób 3: menu z hyperlinków 
+<h3>
+<a href='kandydaci.php'> Kandydaci </a>&nbsp; 
+<a href='najlepsi.php'> Najlepsi </a>&nbsp; 
+<a href='dodaj.html'> Dodaj </a>&nbsp; 
+</h3>
+-->
+
+<hr style="border: 1px solid black;" >
+
+
+
+</center>
+</body>
+</html>
